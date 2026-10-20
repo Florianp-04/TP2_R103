@@ -20,12 +20,15 @@ Notre cahier des charges a été représenté sous forme de **barre de tâche**.
 
 4. Système de sauvegarde automatique : Restic.
    Restic est un système de sauvegarde chiffré qui a la possibilité d'être configurer pour devenir automatique. De notre côté, nous avons trouvé utile d'avoir une sauvegarde tous les matins à 9h.
+   * Premièrement, il a fallu installer Restic sur la machine :
+     La démarche est simple, il faut récupérer tous les paquets avec la commande 
+     
 
-5. Configuration du /var/www/html.
+6. Configuration du /var/www/html.
 
-6. Personnalisation du système.
+7. Personnalisation du système.
 
-7. Installer l'image ISO.
+8. Installer l'image ISO.
 
-8. Terminer la configuration.
+9. Terminer la configuration.
    
