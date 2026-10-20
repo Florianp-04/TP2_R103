@@ -25,10 +25,11 @@ Notre cahier des charges a été représenté sous forme de **barre de tâche**.
      
 
 6. Configuration du /var/www/html.
+   Une modification du système a été appliquée à différents endroits : Le fond d'écran par défaut a été changé, ainsi    que le thème du bureau et les icônes. De plus, le terminal a été personnalisé.
 
-7. Personnalisation du système.
+8. Personnalisation du système.
 
-8. Installer l'image ISO.
+9. Installer l'image ISO.
 
-9. Terminer la configuration.
+10. Terminer la configuration.
    
