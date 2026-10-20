@@ -23,7 +23,17 @@ Notre cahier des charges a été représenté sous forme de **barre de tâche**.
 5. Système de sauvegarde automatique : Restic.
    Restic est un système de sauvegarde chiffré qui a la possibilité d'être configurer pour devenir automatique. De notre côté, nous avons trouvé utile d'avoir une sauvegarde tous les matins à 9h.
    * Premièrement, il a fallu installer Restic sur la machine :
-     La démarche est simple, il faut récupérer tous les paquets avec la commande 
+     La démarche est simple, il faut récupérer tous les paquets puis installer restic.
+   * Deuxièmement, dans Cubic, il faut paramétrer 6 éléments au total :
+      * Un script qui initialise Restic directement une fois l'installation de l'IOS.
+      * Un script qui fait une sauvegarde avec Restic, et qui ne garde que les 3 dernières.
+      * Un script systemd en .timer qui donne le cycle de sauvegarde.
+      * Un script systemd en .service qui fait exécute le script de sauvegarde en fonction du timer.
+      * Le dossier /media/backup/restic pour stocker les sauvegardes.
+      * Le fichier dans /etc/restic/password pour stocker le mot de passe.
+   * La dernière étape est après l'installation de l'image ISO. On doit ainsi lancer le script restic-init pour initialiser Restic. Puis il faut activer le .timer pour la sauvegarde automatique. Et pour finir, il faut configurer le fichier /etc/restic/password de façon sécurisé.
+
+   Une fois toutes ces étapes réalisés, Restic fera des sauvegardes tous les jours à 9h, en gardant seulement les 3 dernières sauvegardes.
      
 6. Configuration du /var/www/html.
    
