@@ -3,14 +3,14 @@ Notre projet consiste à configurer une **image ISO** comprenant plusieurs outil
 Notre cahier des charges a été représenté sous forme de **barre de tâche**.
 
 **Barre des tâches** concernant notre *projet de SAE1.03* : Préparer une image ISO
-- [] Installer Cubic sur notre machine.
-- [] Installer LAMP sur l'image ISO.
-- [] Installer Forgejo sur l'image ISO.
-- [] Système de sauvegarde automatique : Restic.
-- [] Configuration du /var/www/html.
-- [] Personnalisation du système (fond d'écran, .bashrc, .bash_profile, ...).
-- [] Installer l'image ISO.
-- [] Terminer la configuration.
+- [ ] Installer Cubic sur notre machine.
+- [ ] Installer LAMP sur l'image ISO.
+- [ ] Installer Forgejo sur l'image ISO.
+- [ ] Système de sauvegarde automatique : Restic.
+- [ ] Configuration du /var/www/html.
+- [ ] Personnalisation du système (fond d'écran, .bashrc, .bash_profile, ...).
+- [ ] Installer l'image ISO.
+- [ ] Terminer la configuration.
 
 1. Installer Cubic sur notre machine.
 
