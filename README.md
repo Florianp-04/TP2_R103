@@ -23,13 +23,12 @@ Notre cahier des charges a été représenté sous forme de **barre de tâche**.
    * Premièrement, il a fallu installer Restic sur la machine :
      La démarche est simple, il faut récupérer tous les paquets avec la commande 
      
+5. Configuration du /var/www/html.
+   
 
-6. Configuration du /var/www/html.
+6. Personnalisation du système.
    Une modification du système a été appliquée à différents endroits : Le fond d'écran par défaut a été changé, ainsi    que le thème du bureau et les icônes. De plus, le terminal a été personnalisé.
+7. Installer l'image ISO.
 
-8. Personnalisation du système.
-
-9. Installer l'image ISO.
-
-10. Terminer la configuration.
+8. Terminer la configuration.
    
